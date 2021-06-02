@@ -1,5 +1,7 @@
 package com.example.library.dto;
 
+import com.example.library.model.Author;
+import com.example.library.model.Genre;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -14,9 +16,9 @@ public class BookDto {
 
     private String title;
 
-    private String genre;
+    private Genre genre;
 
-    private String author;
+    private Author author;
 
     private String clientNames;
 }
